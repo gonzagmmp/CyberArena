@@ -42,7 +42,7 @@ package es.cyberArena.arena;
 
 	    // Métodos
 
-	    public void atacar(Robot robotEnemigo) {
+	    public void atacar(Robot robotEnemigo) { 
 	        int daño = 0;
 	        Random random = new Random();
 	        int factorSuerte = random.nextInt(8);
